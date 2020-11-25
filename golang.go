@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/chivequiachon/golangtest/stringtests"
+)
 
 func main() {
-	fmt.Println("Hello GoLang!")
+	fmt.Println(stringtests.ReverseRunes("!1gnaloG ,olleH"))
 }
